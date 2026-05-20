@@ -41,7 +41,7 @@ axiom-core-input/
 │       └── kalman.rs        # High-frequency jitter mitigation algorithms
 └── tests/
     └── latency_tests.rs     # Bare-metal sub-1.1ms integration benchmarks
-
+```
 ## ⚙️ Building and Deployment
 
 This firmware is designed to target embedded ARM Cortex-M7 microcontrollers (`thumbv7em-none-eabihf`). It compiles entirely in `#![no_std]` mode.
